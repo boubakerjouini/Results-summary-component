@@ -2,7 +2,7 @@ import React from 'react'
 
 const LeftPanel = () => {
   return (
-    <div className="flex flex-col bg-secondary-dark w-full rounded-b-3xl sm:rounded-3xl px-[35px] py-8 align-middle items-center">
+    <div className="flex flex-col bg-secondary-dark w-[500px] rounded-b-3xl sm:rounded-3xl px-[35px] py-8 align-middle items-center">
       <h2 className=" text-gray-300 font-hanken font-medium text-xl">Your Result</h2>
 
       <div className="flex flex-col items-center text-center justify-center mt-6 ">

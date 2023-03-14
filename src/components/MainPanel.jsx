@@ -4,7 +4,7 @@ import RightPanel from './RightPanel'
 
 const MainPanel = () => {
   return (
-    <div className=" sm:flex sm:flex-row  justify-around sm:bg-white sm:w-[570px] sm:h-[400px] sm:rounded-3xl w-full h-full shadow-2xl">
+    <div className=" sm:flex sm:flex-row  justify-around sm:bg-white sm:w-[600px] sm:h-[420px] sm:rounded-3xl w-full h-full shadow-2xl">
       <LeftPanel />
       <RightPanel />
     </div>
