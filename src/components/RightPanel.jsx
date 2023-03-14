@@ -17,7 +17,7 @@ const RightPanel = () => {
       {data.map((item, index) => {
         return (
           <div
-            className={`flex flex-row justify-between gap-2 ml-8 mt-6   ${bgColors[index]}  w-[250px] h-10 py-1 px-4 rounded-md align-middle items-center`}
+            className={`flex flex-row justify-between gap-2 ml-8 mr-8 mt-6   ${bgColors[index]}  md:w-[250px]  h-10 py-1 px-4 rounded-md align-middle items-center`}
             key={index}
           >
             <div className="flex flex-row gap-2">
@@ -34,8 +34,8 @@ const RightPanel = () => {
         )
       })}
 
-      <div className="flex flex-col justify-center items-center my-5">
-        <button className="bg-black w-[250px]  h-12 my-12 mt-2 rounded-full text-white font-hanken font-medium text-lg hover:bg-gradient-to-t hover:from-background-dark hover:to-background-light">
+      <div className="flex flex-col justify-center items-center my-5 mx-8 ">
+        <button className="bg-black md:w-[250px] w-full h-12 my-12 mt-2 rounded-full text-white font-hanken font-medium text-lg hover:bg-gradient-to-t hover:from-background-dark hover:to-background-light">
           Continue
         </button>
       </div>
